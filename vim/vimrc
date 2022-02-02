@@ -1,6 +1,8 @@
 " ==========  DEFAULT ==========
 
 " ===== not grouped =====
+" enable files in ftplugin/
+filetype plugin on
 " Turn syntax highlighting on.
 syntax on
 " Show line numbers
@@ -28,6 +30,10 @@ let g:XkbSwitchIMappings=['uk']
 
 " ==========  MAPPINGS ==========
 
+" Space as second leader key
+nmap <space> <leader>
+" save file
+nnoremap <leader>w :w<CR>
 " jj as easier way to press ESC
 inoremap jj <ESC>
 
