@@ -1,0 +1,51 @@
+" ==========  DEFAULT ==========
+
+" ===== not grouped =====
+" Turn syntax highlighting on.
+syntax on
+" Show line numbers
+set number
+
+" ===== searching =====
+" Highlight all search pattern
+set hlsearch
+" Highlight all matches while entering patter
+set incsearch
+" Ignore case while searching
+set ignorecase
+
+
+
+" ==========  PLUGINS ==========
+
+" ===== vim-xkbswitch =====
+" Basic configuration
+let g:XkbSwitchEnabled=1
+" Insert mappings duplicates for Ukrainian layout
+let g:XkbSwitchIMappings=['uk']
+
+
+" ==========  MAPPINGS ==========
+
+" jj as easier way to press ESC
+inoremap jj <ESC>
+
+
+
+" ==========  VIMSCRIPT ==========
+
+" This will enable code folding.
+" Use the marker method of folding.
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
+
+" More Vimscripts code goes here.
+
+
+
+" ==========  STATUS LINE ==========
+
+" Show partial commands on the status line
+set showcmd
