@@ -1,37 +1,21 @@
-" DEFAULT ---------------------------------------------------------------- {{{
+" ==========  DEFAULT ==========
 
-" }}}
-
-
-" PLUGINS ---------------------------------------------------------------- {{{
-
-
-" }}}
+" maximize window
+set lines=999 columns=999
+" set default font-size
+set guifont=14
 
 
-" MAPPINGS --------------------------------------------------------------- {{{
+" ==========  PLUGINS ==========
 
 
-" }}}
+
+" ==========  MAPPINGS ==========
 
 
-" VIMSCRIPT -------------------------------------------------------------- {{{
 
-" This will enable code folding.
-" Use the marker method of folding.
-augroup filetype_vim
-    autocmd!
-    autocmd FileType vim setlocal foldmethod=marker
-augroup END
-
-" More Vimscripts code goes here.
-
-" }}}
+" ==========  VIMSCRIPT ==========
 
 
-" STATUS LINE ------------------------------------------------------------ {{{
 
-" Status bar code goes here.
-
-" }}}
-
+" ==========  STATUS LINE ==========
