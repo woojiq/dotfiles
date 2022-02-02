@@ -1,9 +1,11 @@
 " ==========  DEFAULT ==========
 
-" maximize window
+" Maximize window
 set lines=999 columns=999
-" set default font-size
+" Set default font-size
 set guifont=14
+" Remove the toolbar
+set guioptions-=T
 
 
 " ==========  PLUGINS ==========

@@ -1,12 +1,14 @@
 " ==========  DEFAULT ==========
 
 " ===== not grouped =====
-" enable files in ftplugin/
+" Enable file type plugin
 filetype plugin on
 " Turn syntax highlighting on.
 syntax on
 " Show line numbers
 set number
+" Disable swap files
+set noswapfile
 
 " ===== searching =====
 " Highlight all search pattern
@@ -15,6 +17,8 @@ set hlsearch
 set incsearch
 " Ignore case while searching
 set ignorecase
+" If at least 1 character Upper case, case-sensitive search
+set smartcase
 
 
 
@@ -36,7 +40,8 @@ nmap <space> <leader>
 nnoremap <leader>w :w<CR>
 " jj as easier way to press ESC
 inoremap jj <ESC>
-
+" switch highlighting
+nnoremap <leader>hl :set hlsearch!<CR>
 
 
 " ==========  VIMSCRIPT ==========
