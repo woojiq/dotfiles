@@ -3,9 +3,11 @@
 " ===== MAPPING =====
 " 
 " Save and compile
-nnoremap <leader>c :w <bar> !mcs % -out:%:r<CR><CR>
+nnoremap <leader>c :w <bar> !mcs % -out:%:r<CR>
 " Execute
-nnoremap <leader>e <C-w>o:vertical terminal ++cols=30 %:r<CR>
+nnoremap <leader>e <C-w>o:vertical terminal ++cols=30 %:p:r<CR>
+" Save and compile + execute
+nmap <leader>r <leader>c<leader>e
 
 
 

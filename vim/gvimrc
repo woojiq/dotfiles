@@ -1,7 +1,7 @@
 " ==========  DEFAULT ==========
 
 " Maximize window
-set lines=999 columns=999
+set lines=300 columns=300
 " Set default font-size
 set guifont=14
 " Remove the toolbar
