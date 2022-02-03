@@ -1,5 +1,5 @@
 " ==========  DEFAULT ==========
-
+"
 " ===== not grouped =====
 " Enable file type plugin
 filetype plugin on
@@ -23,7 +23,7 @@ set smartcase
 
 
 " ==========  PLUGINS ==========
-
+"
 " ===== vim-xkbswitch =====
 " Basic configuration
 let g:XkbSwitchEnabled=1
@@ -33,7 +33,7 @@ let g:XkbSwitchIMappings=['uk']
 
 
 " ==========  MAPPINGS ==========
-
+"
 " Space as second leader key
 nmap <space> <leader>
 " save file
@@ -49,6 +49,6 @@ nnoremap <leader>hl :set hlsearch!<CR>
 
 
 " ==========  STATUS LINE ==========
-
+"
 " Show partial commands on the status line
 set showcmd

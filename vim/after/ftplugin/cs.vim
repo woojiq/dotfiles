@@ -1,9 +1,9 @@
-" ftplugin/cpp.vim
+" ftplugin/cs.vim
 
 " ===== MAPPING =====
 " 
 " Save and compile
-nnoremap <leader>c :w <bar> !g++ % -W -o %:r<CR><CR>
+nnoremap <leader>c :w <bar> !mcs % -out:%:r<CR><CR>
 " Execute
 nnoremap <leader>e <C-w>o:vertical terminal ++cols=30 %:r<CR>
 
