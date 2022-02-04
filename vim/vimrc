@@ -20,6 +20,12 @@ set ignorecase
 " If at least 1 character Upper case, case-sensitive search
 set smartcase
 
+" ===== tabs/spaces =====
+" the width of the TAB character
+setlocal tabstop=4
+" size of indentation
+setlocal shiftwidth=4
+
 
 
 " ==========  PLUGINS ==========
@@ -61,7 +67,7 @@ if has('gui_running')
 	" Maximize window
 	set lines=300 columns=300
 	" Set default font-size
-	set guifont=14
+	set guifont=Fixedsys\ Excelsior\ 16
 	" Remove the toolbar
 	set guioptions-=T
 endif
