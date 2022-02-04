@@ -52,3 +52,16 @@ nnoremap <leader>hl :set hlsearch!<CR>
 "
 " Show partial commands on the status line
 set showcmd
+
+
+
+" ========== GVIMRC ==========
+"
+if has('gui_running')
+	" Maximize window
+	set lines=300 columns=300
+	" Set default font-size
+	set guifont=14
+	" Remove the toolbar
+	set guioptions-=T
+endif
