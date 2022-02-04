@@ -5,7 +5,7 @@
 filetype plugin on
 " Turn syntax highlighting on.
 syntax on
-" Show line numbers
+" show line number
 set number
 " Disable swap files
 set noswapfile
@@ -22,9 +22,9 @@ set smartcase
 
 " ===== tabs/spaces =====
 " the width of the TAB character
-setlocal tabstop=4
+set tabstop=4
 " size of indentation
-setlocal shiftwidth=4
+set shiftwidth=4
 
 
 
@@ -40,6 +40,8 @@ let g:XkbSwitchIMappings=['uk']
 
 " ==========  MAPPINGS ==========
 "
+" Time to print next character in mapping
+set timeoutlen=300
 " Space as second leader key
 nmap <space> <leader>
 " save file
@@ -66,6 +68,7 @@ set showcmd
 if has('gui_running')
 	" Maximize window
 	set lines=300 columns=300
+	" DOWNLOAD
 	" Set default font-size
 	set guifont=Fixedsys\ Excelsior\ 16
 	" Remove the toolbar
