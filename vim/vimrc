@@ -67,10 +67,16 @@ set showcmd
 "
 if has('gui_running')
 	" Maximize window
-	set lines=300 columns=300
+	set lines=100 columns=300
 	" DOWNLOAD
+	" https://russianfonts.org/fonts/fixedsys-excelsior-301-regular
 	" Set default font-size
-	set guifont=Fixedsys\ Excelsior\ 16
+	set guifont=Fixedsys\ Excelsior\ 3.01\ Regular\ 15
 	" Remove the toolbar
 	set guioptions-=T
+	" Remove scrollbar
+	set guioptions-=L
+	set guioptions-=r
+	" Change default theme
+	colorscheme peachpuff
 endif
