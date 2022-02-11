@@ -3,7 +3,7 @@
 " ===== MAPPING =====
 " 
 " Save and compile
-nnoremap <leader>c :w <bar> !g++ % -W -o %:r<CR><CR>
+nnoremap <leader>c :w <bar> !g++ -std=c++17 % -W -o %:r<CR>
 " Execute
 nnoremap <leader>e <C-w>o:vertical terminal ++cols=30 %:p:r<CR>
 " Save and compile + execute

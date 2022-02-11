@@ -36,6 +36,16 @@ let g:XkbSwitchEnabled=1
 " Insert mappings duplicates for Ukrainian layout
 let g:XkbSwitchIMappings=['uk']
 
+" ===== netrw =====
+" The tree list view in netrw
+let g:netrw_liststyle=3
+" Remove directory banner
+let g:netrw_banner=0
+" Open files in new windows
+let g:netrw_browse_split=3
+" Set the width of the directory explorer
+let g:netrw_winsize=10
+
 
 
 " ==========  MAPPINGS ==========

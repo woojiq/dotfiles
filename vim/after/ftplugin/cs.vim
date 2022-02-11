@@ -5,7 +5,7 @@
 " Save and compile
 nnoremap <leader>c :w<CR>:!make<CR>
 " Execute
-nnoremap <leader>e <C-w>o:vertical terminal ++cols=30 %:p:r<CR>
+nnoremap <leader>e <C-w>o:vertical terminal ++cols=30 ./run<CR>
 " Save and compile + execute
 nmap <leader>r <leader>c<leader>e
 

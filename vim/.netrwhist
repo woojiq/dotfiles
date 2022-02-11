@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/media/sf_onewayJesus/oop/lab2'
+let g:netrw_dirhist_7='/media/sf_onewayJesus/oop'
+let g:netrw_dirhist_6='/'
+let g:netrw_dirhist_5='/media'
+let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_3='/media'
+let g:netrw_dirhist_2='/'
+let g:netrw_dirhist_1='/media/sf_onewayJesus/oop'
+let g:netrw_dirhist_0='/media'
+let g:netrw_dirhist_9='/media/sf_onewayJesus'
