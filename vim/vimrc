@@ -51,7 +51,7 @@ let g:netrw_winsize=10
 " ==========  MAPPINGS ==========
 "
 " Time to print next character in mapping
-set timeoutlen=300
+set timeoutlen=400
 " Space as second leader key
 nmap <space> <leader>
 " save file
