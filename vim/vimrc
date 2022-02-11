@@ -56,8 +56,6 @@ set timeoutlen=300
 nmap <space> <leader>
 " save file
 nnoremap <leader>w :w<CR>
-" jj as easier way to press ESC
-inoremap jj <ESC>
 " switch highlighting
 nnoremap <leader>hl :set hlsearch!<CR>
 
