@@ -9,6 +9,8 @@ syntax on
 set number
 " Disable swap files
 set noswapfile
+" Not to change the size of the windows after closing
+set noequalalways
 
 " ===== searching =====
 " Highlight all search pattern
