@@ -5,7 +5,7 @@
 " Save and compile
 nnoremap <leader>c :w<CR> :!dotnet build --no-restore<CR>
 " Execute
-nnoremap <leader>e :wincmd l<CR> <C-w>:q!<CR> :vert term ++cols=40 dotnet bin/Debug/net6.0/%:p:h:t.dll<CR>
+nnoremap <leader>e <C-w>o:vert term ++cols=40 dotnet bin/Debug/net6.0/%:p:h:t.dll<CR>
 " Save and compile + execute
 nmap <leader>r <leader>c<leader>e
 
