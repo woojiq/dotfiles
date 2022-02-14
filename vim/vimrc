@@ -7,10 +7,16 @@ filetype plugin on
 syntax on
 " show line number
 set number
+" Turn hybrid line numbers on
+set number relativenumber
 " Disable swap files
 set noswapfile
+
+" ===== windows/splits =====
 " Not to change the size of the windows after closing
 set noequalalways
+" If the split is vertical, a new window appears to the right
+setlocal splitright
 
 " ===== searching =====
 " Highlight all search pattern
@@ -27,6 +33,8 @@ set smartcase
 set tabstop=4
 " size of indentation
 set shiftwidth=4
+" Insert extra level of indentation in some C-cases
+setlocal cindent 
 
 
 
@@ -43,9 +51,7 @@ let g:XkbSwitchIMappings=['uk']
 let g:netrw_liststyle=3
 " Remove directory banner
 let g:netrw_banner=0
-" Open files in new windows
-let g:netrw_browse_split=3
-" Set the width of the directory explorer
+" Set the width of the file explorer
 let g:netrw_winsize=10
 
 
@@ -56,13 +62,21 @@ let g:netrw_winsize=10
 set timeoutlen=400
 " Space as second leader key
 nmap <space> <leader>
-" save file
+" Save file
 nnoremap <leader>w :w<CR>
-" switch highlighting
+" Switch highlighting
 nnoremap <leader>hl :set hlsearch!<CR>
+" Open netrw - file explorer
+nnoremap <leader>fe :Vexplore<CR>
+" Open Vim terminal
+nnoremap <leader>te :vertical terminal ++cols=40<CR>
+
 
 
 " ==========  VIMSCRIPT ==========
+"
+" Disable the show of line numbers in Terminal
+autocmd TerminalOpen * setlocal nonumber norelativenumber
 
 
 
