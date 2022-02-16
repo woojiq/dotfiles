@@ -24,6 +24,9 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 * `Europe/Kiev` (timezone)
 * `Y` (automatic time synchronization)
 * `Enter` (to start installing)
+* `Y` (chroot into the newly created installation) (TEST - `N`)
+* `exit` (to exit chroot mode)
+* `reboot` (to reboot system and go to the Linux world)
 </details>
 
 <hr />
