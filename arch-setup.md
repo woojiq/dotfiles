@@ -50,11 +50,18 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 </details>
 
 <details>
+  <summary><b>edit configs</b></summary>
+  
+  * **/etc/default/grub**.
+    * `GRUB_TIMEOUT=1`
+    * `GRUB_TIMEOUT_STYLE=hidden` [[1]](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html)
+    * *Apply changes*: `sudo grub-mkconfig -o /boot/grub/grub.cfg` [[2]](https://wiki.archlinux.org/title/GRUB#Generated_grub.cfg)
+</details>
+
+<details>
   <summary><b>TODO</b></summary>
   
   - [ ] Add `man` to `$PATH`
-  - [x] Install `paccache` and setup it to regularly clear cache
-  - [ ] Install `git` and clone `dotfiles` repo
 </details>
 
 <hr />
