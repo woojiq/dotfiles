@@ -36,20 +36,24 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 </details>
 
 <details>
-  <summary><b>packages/setup</b></summary>
+  <summary><b>packages</b></summary>
   
   * **vi** (`sudo pacman -S vi`) ~ (super lightweight text-editor to start edit some configs)
-  
   * **pacman-contrib** (`sudo pacman -S pacman-contrib`) ~ (in order to regularly remove old versions of installed packages with `paccache`)  
-    * Create pacman hook - [**remove-old-cache.hook**](https://github.com/woojiq/dotfiles/blob/master/various/remove-old-cache.hook). [[1]](https://bbs.archlinux.org/viewtopic.php?pid=1694743#p1694743) [[2]](https://man.archlinux.org/man/alpm-hooks.5)
-  * not yet **git** (`sudo pacman -S git`)
+  * **git** (`sudo pacman -S git`) ~ (lol git)
+</details>
+
+<details>
+  <summary><b>scripts</b></summary>
+  
+  * Create pacman hook - [**remove-old-cache.hook**](https://github.com/woojiq/dotfiles/blob/master/various/remove-old-cache.hook). [[1]](https://bbs.archlinux.org/viewtopic.php?pid=1694743#p1694743) [[2]](https://man.archlinux.org/man/alpm-hooks.5)
 </details>
 
 <details>
   <summary><b>TODO</b></summary>
   
   - [ ] Add `man` to `$PATH`
-  - [ ] Install `paccache` and setup it to regularly clear cache
+  - [x] Install `paccache` and setup it to regularly clear cache
   - [ ] Install `git` and clone `dotfiles` repo
 </details>
 
