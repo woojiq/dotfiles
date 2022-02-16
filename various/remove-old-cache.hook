@@ -1,0 +1,12 @@
+# Pacman Hook -> etc/pacman.d/hooks/remove-old-cache.hook
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Cleaning pacman cache...
+When = PostTransaction
+Exec = /usr/bin/paccache -rvk1
