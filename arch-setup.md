@@ -29,6 +29,30 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 * `reboot` (to reboot system and go to the Linux world)
 </details>
 
+<details>
+  <summary><b>one time commands</b></summary>
+  
+  * `sudo pacman -Fy` (download fresh package database from server)
+</details>
+
+<details>
+  <summary><b>packages/setup</b></summary>
+  
+  * **vi** (`sudo pacman -S vi`) ~ (super lightweight text-editor to start edit some configs)
+  
+  * **pacman-contrib** (`sudo pacman -S pacman-contrib`) ~ (in order to regularly remove old versions of installed packages with `paccache`)  
+    * Create pacman hook - [**remove-old-cache.hook**](https://github.com/woojiq/dotfiles/blob/master/various/remove-old-cache.hook). [[1]](https://bbs.archlinux.org/viewtopic.php?pid=1694743#p1694743) [[2]](https://man.archlinux.org/man/alpm-hooks.5)
+  * not yet **git** (`sudo pacman -S git`)
+</details>
+
+<details>
+  <summary><b>TODO</b></summary>
+  
+  - [ ] Add `man` to `$PATH`
+  - [ ] Install `paccache` and setup it to regularly clear cache
+  - [ ] Install `git` and clone `dotfiles` repo
+</details>
+
 <hr />
 
 ##### [Пісенька](https://genius.com/Badbok-putins-death-lyrics)
