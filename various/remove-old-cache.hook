@@ -1,4 +1,5 @@
 # Pacman Hook -> etc/pacman.d/hooks/remove-old-cache.hook
+# When I use pacman to install/upgrade/remove, old versions of packages are removed automatically. Only 1 (last) version remains.
 [Trigger]
 Operation = Upgrade
 Operation = Install
@@ -7,6 +8,6 @@ Type = Package
 Target = *
 
 [Action]
-Description = Cleaning pacman cache...
+Description = Cleaning pacman cache (only 1 last version remains)...
 When = PostTransaction
 Exec = /usr/bin/paccache -rvk1
