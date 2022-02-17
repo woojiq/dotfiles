@@ -83,6 +83,16 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 </details>
 
 <details>
+  <summary><b>virtual box</b></summary>
+  
+  * **setup shared folder** [[read this before]](https://averagelinuxuser.com/virtualbox-shared-folder/)
+    * `sudo pacman -S virtualbox-guest-utils`
+    * `sudo systemctl enable vboxservice`
+    * add `whoami` to `vboxsf` group
+    * add shared folder to `virtual box`
+</details>
+
+<details>
   <summary><b>TODO</b></summary>
   
   - [ ] Add `man` to `$PATH`
