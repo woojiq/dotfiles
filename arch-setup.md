@@ -56,10 +56,21 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>edit configs</b></summary>
   
-  * **/etc/default/grub**.
-    * `GRUB_TIMEOUT=1`
-    * `GRUB_TIMEOUT_STYLE=hidden` [[1]](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html)
-    * *Apply changes*: `sudo grub-mkconfig -o /boot/grub/grub.cfg` [[2]](https://wiki.archlinux.org/title/GRUB#Generated_grub.cfg)
+  * **/etc/default/grub**.  
+    * `Modify:`   
+      *Apply changes*: `sudo grub-mkconfig -o /boot/grub/grub.cfg`  
+      [[1]](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html) [[2]](https://wiki.archlinux.org/title/GRUB#Generated_grub.cfg)
+      ```
+      GRUB_TIMEOUT=1
+      GRUB_TIMEOUT_STYLE=hidden
+      ```
+  
+  * **/etc/sudoers** (`sudo visudo`).  
+    * `Add:` [[1]](https://wiki.archlinux.org/title/sudo#Reduce_the_number_of_times_you_have_to_type_a_password)
+      ```
+      ## Ask for password every time 'sudo' is entered
+      Defaults timestamp_timeout=0
+      ```
 </details>
 
 <details>
