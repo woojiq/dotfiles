@@ -27,6 +27,8 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 * `Y` (chroot into the newly created installation) (TEST - `N`)
 * `exit` (to exit chroot mode)
 * `reboot` (to reboot system and go to the Linux world)
+  
+  [`Pre-installed packages.`](https://github.com/woojiq/dotfiles/blob/master/various/prepack)
 </details>
 
 <details>
