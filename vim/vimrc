@@ -11,6 +11,8 @@ set number
 set number relativenumber
 " Disable swap files
 set noswapfile
+" Disable compatible with Vi
+set nocompatible
 
 " ===== windows/splits =====
 " Not to change the size of the windows after closing
