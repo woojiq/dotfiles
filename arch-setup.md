@@ -34,13 +34,15 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>one time commands</b></summary>
   
-  * `sudo pacman -Fy` (download fresh package database from server)
+  * `sudo pacman -Syu` (download fresh package database from server and update all packages)
+  * `git clone https://github.com/woojiq/dotfiles.git`  
+    `source ~/dotfiles/make-simlinks.sh` ~ (swap original dotfiles with mine)
 </details>
 
 <details>
   <summary><b>packages</b></summary>
   
-  * **vi** (`sudo pacman -S vi`) ~ (super lightweight text-editor to start edit some configs)
+  * **vim** (`sudo pacman -S vim`) ~ (lightweight text-editor to start edit some configs and write bullshit code)
   * **pacman-contrib** (`sudo pacman -S pacman-contrib`) ~ (in order to regularly remove old versions of installed packages with `paccache`)  
   * **git** (`sudo pacman -S git`) ~ (lol git)
   * **polkit** (`sudo pacman -S polkit`) ~ (use poweroff, reboot without typing 'sudo') [[1]](https://bbs.archlinux.org/viewtopic.php?id=169858&p=2)
@@ -71,12 +73,19 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
       ## Ask for password every time 'sudo' is entered
       Defaults timestamp_timeout=0
       ```
+  
+  * **/etc/environment**.  
+    * `Add:` [[1]](https://wiki.archlinux.org/title/Environment_variables#Defining_variables) (*reboot* to apply)
+      ```
+      EDITOR=vim
+      ```
 </details>
 
 <details>
   <summary><b>TODO</b></summary>
   
   - [ ] Add `man` to `$PATH`
+  - [ ] Install `dotnet`
 </details>
 
 <hr />
