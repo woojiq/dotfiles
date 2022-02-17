@@ -41,12 +41,13 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 
 <details>
   <summary><b>packages</b></summary>
-  
-  * **vim** (`sudo pacman -S vim`) ~ (lightweight text-editor to start edit some configs and write bullshit code)
-  * **pacman-contrib** (`sudo pacman -S pacman-contrib`) ~ (in order to regularly remove old versions of installed packages with `paccache`)  
-  * **git** (`sudo pacman -S git`) ~ (lol git)
-  * **polkit** (`sudo pacman -S polkit`) ~ (use poweroff, reboot without typing 'sudo') [[1]](https://bbs.archlinux.org/viewtopic.php?id=169858&p=2)
-  * **tree** (`sudo pacman -S tree`) ~ (list contents of directories in a tree-like format)
+    
+  * **vim** ~ (lightweight text-editor to start edit some configs and write bullshit code)
+  * **pacman-contrib** ~ (in order to regularly remove old versions of installed packages with `paccache`)  
+  * **git** ~ (lol git)
+  * **polkit** ~ (use poweroff, reboot without typing 'sudo') [[1]](https://bbs.archlinux.org/viewtopic.php?id=169858&p=2)
+  * **tree** ~ (list contents of directories in a tree-like format)
+  * **dotnet-sdk** ~ (framework to build c# applications)
 </details>
 
 <details>
