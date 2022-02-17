@@ -41,6 +41,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **vi** (`sudo pacman -S vi`) ~ (super lightweight text-editor to start edit some configs)
   * **pacman-contrib** (`sudo pacman -S pacman-contrib`) ~ (in order to regularly remove old versions of installed packages with `paccache`)  
   * **git** (`sudo pacman -S git`) ~ (lol git)
+  * **polkit** (`sudo pacman -S polkit`) ~ (use poweroff, reboot without typing 'sudo') [[1]](https://bbs.archlinux.org/viewtopic.php?id=169858&p=2)
 </details>
 
 <details>
