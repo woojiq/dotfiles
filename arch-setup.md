@@ -97,6 +97,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   
   - [ ] Install `font` that support `ukr/eng` layout
   - [ ] Add one more layout - `ukr`
+  - [ ] Remap `CapsLock` to `Ctrl`
   - [ ] Add `man` to `$PATH`
 </details>
 
