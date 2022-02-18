@@ -87,6 +87,13 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
       FONT=cyr-sun16
       KEYMAP_TOGGLE=ua-utf
       ```
+  
+  * **/usr/share/kbd/keymaps/i386/qwerty**.  
+    * `Modify:` [[1]](https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration#Other_examples) (*reboot* to apply)
+      * **./us.map.gz**
+        `keycode 58 = Control`
+      * **./ua-utf.map.gz**
+        `keycode 58 = Control`
 </details>
 
 <details>
@@ -102,9 +109,6 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>TODO</b></summary>
   
-  - [ ] Install `font` that support `ukr/eng` layout
-  - [ ] Add one more layout - `ukr`
-  - [ ] Remap `CapsLock` to `Ctrl`
   - [ ] Add `man` to `$PATH`
 </details>
 
