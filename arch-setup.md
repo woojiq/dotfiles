@@ -17,7 +17,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 * (one more password ~ what is the difference?)
 * `y` (should this user be a superuser)
 * `Enter` (no pre-programmed profile name)
-* `0` (pipewire)
+* `0` (pipewire) (TEST - `none`)
 * `Enter` (leave blank for default: linux)
 * `Enter` (no additional packages)
 * `0` (copy ISO network)
@@ -79,6 +79,13 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
     * `Add:` [[1]](https://wiki.archlinux.org/title/Environment_variables#Defining_variables) (*reboot* to apply)
       ```
       EDITOR=vim
+      ```
+  
+  * **/etc/vconsole.conf**.  
+    * `Add:` [[1]](https://man.archlinux.org/man/vconsole.conf.5) (*reboot* to apply)
+      ```
+      FONT=cyr-sun16
+      KEYMAP_TOGGLE=ua-utf
       ```
 </details>
 
