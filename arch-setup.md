@@ -95,8 +95,9 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>TODO</b></summary>
   
+  - [ ] Install `font` that support `ukr/eng` layout
+  - [ ] Add one more layout - `ukr`
   - [ ] Add `man` to `$PATH`
-  - [ ] Install `dotnet`
 </details>
 
 <hr />
