@@ -37,6 +37,8 @@ set tabstop=4
 set shiftwidth=4
 " Insert extra level of indentation in some C-cases
 setlocal cindent 
+" Backspace erases indentations, end of lines and previously inserted text
+set backspace=indent,eol,start
 
 
 
