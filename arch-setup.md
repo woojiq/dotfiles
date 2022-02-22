@@ -54,6 +54,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
   * **i3-gaps** ~ (super-puper windows manager)
   * **i3status** ~ (generates a status line)
+  * **kitty** ~ (terminal emulator)
 </details>
 
 <details>
