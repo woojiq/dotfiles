@@ -56,6 +56,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **i3-gaps** ~ (super-puper windows manager)
   * **i3status** ~ (generates a status line)
   * **kitty** ~ (terminal emulator)
+  * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
 </details>
 
 <details>
