@@ -48,6 +48,12 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **polkit** ~ (use poweroff, reboot without typing 'sudo') [[1]](https://bbs.archlinux.org/viewtopic.php?id=169858&p=2)
   * **tree** ~ (list contents of directories in a tree-like format)
   * **dotnet-sdk** ~ (framework to build c# applications)
+  
+  * **ttf-dejavu** ~ (good font for beginning)
+  * **xorg-server** ~ (display server)
+  * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
+  * **i3-gaps** ~ (super-puper windows manager)
+  * **i3status** ~ (generates a status line)
 </details>
 
 <details>
