@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="vim bashrc xinitrc"    # list of files/folders to symlink in homedir
+files="vim bashrc xinitrc i3"    # list of files/folders to symlink in homedir
 
 ##########
 
