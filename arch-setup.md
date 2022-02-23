@@ -58,6 +58,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
+  * **qutebrowser** ~ (vim-inspired browser (mouse for weaks))
 </details>
 
 <details>
