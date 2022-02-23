@@ -8,7 +8,8 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="vim bashrc xinitrc i3 bash_profile"    # list of files/folders to symlink in homedir
+files="vim bashrc xinitrc bash_profile xserverrc"    # list of files/folders to symlink in homedir
+files_config="i3" # list of files/folders to symlink in .config folder
 
 ##########
 
@@ -29,5 +30,15 @@ for file in $files; do
     mv ~/.$file ~/dotfiles_old/
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
+    echo "...done"
+done
+
+# move any existing dotfiles in .config to dotfiles_old directory, then create symlinks 
+echo "Moving any existing dotfiles from ~/.config to $olddir..."
+for file in $files_config; do
+    echo "Moving .$file to $olddir"
+    mv ~/.config/.$file ~/dotfiles_old/
+    echo "Creating symlink to $file in .config directory."
+    ln -s $dir/$file ~/.config/.$file
     echo "...done"
 done
