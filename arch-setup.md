@@ -57,6 +57,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **i3status** ~ (generates a status line)
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
+  * **picom** ~ (transparency in i3)
 </details>
 
 <details>
