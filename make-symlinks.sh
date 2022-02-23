@@ -36,9 +36,9 @@ done
 # move any existing dotfiles in .config to dotfiles_old directory, then create symlinks 
 echo "Moving any existing dotfiles from ~/.config to $olddir..."
 for file in $files_config; do
-    echo "Moving .$file to $olddir"
-    mv ~/.config/.$file ~/dotfiles_old/
+    echo "Moving $file to $olddir"
+    mv ~/.config/$file ~/dotfiles_old/
     echo "Creating symlink to $file in .config directory."
-    ln -s $dir/$file ~/.config/.$file
+    ln -s $dir/$file ~/.config/$file
     echo "...done"
 done
