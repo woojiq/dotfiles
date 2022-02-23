@@ -199,5 +199,5 @@ bar {
 
 # gaps and borders between windows
 for_window [class="^.*"] border pixel 3
-gaps inner 3
-gaps outer 3
+gaps inner 5
+gaps outer 5
