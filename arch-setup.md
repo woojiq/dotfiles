@@ -49,6 +49,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **polkit** ~ (use poweroff, reboot without typing 'sudo') [[1]](https://bbs.archlinux.org/viewtopic.php?id=169858&p=2)
   * **tree** ~ (list contents of directories in a tree-like format)
   * **dotnet-sdk** ~ (framework to build c# applications)
+  * **base-devel** -> (`All`) ~ (tools needed for building (compiling and linking))
   
   * **ttf-dejavu** ~ (good font for beginning)
   * **xorg-server** ~ (display server)
@@ -58,7 +59,8 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
-  * **qutebrowser** ~ (vim-inspired browser (mouse for weaks))
+  
+  * **git clone https://aur.archlinux.org/google-chrome.git** -> (`cd google-chrome` && `makepkg -si`) ~ (browser)
 </details>
 
 <details>
