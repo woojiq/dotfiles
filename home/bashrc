@@ -12,6 +12,8 @@ alias tree='tree -C'
 alias sudovim='sudo vim -u ~/.vim/vimrc'
 # Run google chrome
 alias chrome='google-chrome-stable 2>/dev/null &'
+# Run telegram
+alias teleg='telegram-desktop 2>/dev/null &'
 PS1='[\u@\h \W]\$ '
 
 # BEGIN_KITTY_SHELL_INTEGRATION
