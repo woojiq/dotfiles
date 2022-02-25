@@ -59,6 +59,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
+  * **telegram-desktop** ~ (messenger)
   
   * **git clone https://aur.archlinux.org/google-chrome.git** -> (`cd google-chrome` && `makepkg -si`) ~ (browser)
 </details>
