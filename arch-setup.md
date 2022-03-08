@@ -123,6 +123,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>TODO</b></summary>
   
+  - [ ] Change DNS server to Google Public (or even smth better)
   - [ ] Add `man` to `$PATH`
 </details>
 
