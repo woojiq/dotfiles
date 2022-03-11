@@ -4,7 +4,7 @@
 # This script creates symlinks of my configs to their correct location
 ############################
 
-echo "Let's Go Create Symlinks"
+echo "Let's Create Symlinks"
 
 mkdir ~/old_dotfiles
 

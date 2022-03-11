@@ -43,12 +43,6 @@ set backspace=indent,eol,start
 
 
 " ==========  PLUGINS ==========
-"
-" ===== vim-xkbswitch =====
-" Basic configuration
-let g:XkbSwitchEnabled=1
-" Insert mappings duplicates for Ukrainian layout
-let g:XkbSwitchIMappings=['uk']
 
 
 
@@ -62,15 +56,10 @@ nmap <space> <leader>
 nnoremap <leader>w :w<CR>
 " Switch highlighting (hl = highlight)
 nnoremap <leader>hl :set hlsearch!<CR>
-" Open Vim terminal (te = terminal)
-nnoremap <leader>te :vertical terminal ++cols=40<CR>
 
 
 
 " ==========  VIMSCRIPT ==========
-"
-" Disable the show of line numbers in Terminal
-autocmd TerminalOpen * setlocal nonumber norelativenumber
 
 
 
@@ -78,20 +67,3 @@ autocmd TerminalOpen * setlocal nonumber norelativenumber
 "
 " Show partial commands on the status line
 set showcmd
-
-
-" ========== GVIMRC ==========
-"
-if has('gui_running')
-	" Maximize window
-	set lines=100 columns=300
-	" DOWNLOAD
-	" https://russianfonts.org/fonts/fixedsys-excelsior-301-regular
-	" Set default font-size
-	set guifont=Fixedsys\ Excelsior\ 3.01\ Regular\ 15
-	" Remove the toolbar
-	set guioptions-=T
-	" Remove scrollbar
-	set guioptions-=L
-	set guioptions-=r
-endif

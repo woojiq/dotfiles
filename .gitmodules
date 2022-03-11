@@ -1,3 +1,0 @@
-[submodule "vim/pack/plugins/start/vim-xkbswitch"]
-	path = vim/pack/plugins/start/vim-xkbswitch
-	url = https://github.com/lyokha/vim-xkbswitch.git
