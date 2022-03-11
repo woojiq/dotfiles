@@ -41,7 +41,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 </details>
 
 <details>
-  <summary><b>packages</b></summary>
+  <summary><b>pacman</b></summary>
     
   * **vim** ~ (lightweight text-editor to start edit some configs and write bullshit code)
   * **pacman-contrib** ~ (in order to regularly remove old versions of installed packages with `paccache`)  
@@ -60,8 +60,17 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
   * **telegram-desktop** ~ (messenger)
+</details>
   
-  * **git clone https://aur.archlinux.org/google-chrome.git** -> (`cd google-chrome` && `makepkg -si`) ~ (browser)
+<details>
+  <summary><b>AUR</b></summary>
+  
+  * **google-chrome** ~ (browser)
+  * **polybar** ~ (awesome status bar)
+  ##### Installation guide
+  1. git clone $aur_link
+  2. cd $package_name
+  3. makepkg -si
 </details>
 
 <details>
