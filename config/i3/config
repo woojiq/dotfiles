@@ -198,6 +198,6 @@ bar {
 }
 
 # gaps and borders between windows
-for_window [class="^.*"] border pixel 3
-gaps inner 5
+for_window [class="^.*"] border pixel 0
+gaps inner 8
 gaps outer 5
