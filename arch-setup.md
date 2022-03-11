@@ -51,7 +51,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **dotnet-sdk** ~ (framework to build c# applications)
   * **base-devel** -> (`All`) ~ (tools needed for building (compiling and linking))
   
-  * **ttf-dejavu** ~ (good font for beginning)
+  * **ttf-jetbrains-mono** ~ (good font for beginning)
   * **xorg-server** ~ (display server)
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
   * **i3-gaps** ~ (super-puper windows manager)
