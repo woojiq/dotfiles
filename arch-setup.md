@@ -51,7 +51,6 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **dotnet-sdk** ~ (framework to build c# applications)
   * **base-devel** -> (`All`) ~ (tools needed for building (compiling and linking))
   
-  * **ttf-jetbrains-mono** ~ (good font for beginning)
   * **xorg-server** ~ (display server)
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
   * **i3-gaps** ~ (super-puper windows manager)
@@ -66,7 +65,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   
   * **google-chrome** ~ (browser)
   * **polybar** ~ (awesome status bar)
-  * **ttf-material-icons-git** ~ (icons set)
+  * **nerd-fonts-jetbrains-mono** ~ (jetbrains mono with a lot of icons)
   ##### Installation guide
   1. git clone $aur_link
   2. cd $package_name
