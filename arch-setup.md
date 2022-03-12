@@ -66,6 +66,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   
   * **google-chrome** ~ (browser)
   * **polybar** ~ (awesome status bar)
+  * **ttf-material-icons-git** ~ (icons set)
   ##### Installation guide
   1. git clone $aur_link
   2. cd $package_name
