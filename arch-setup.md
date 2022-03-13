@@ -54,6 +54,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **xorg-server** ~ (display server)
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
   * **i3-gaps** ~ (super-puper windows manager)
+  * **i3lock** ~ (simple screen locker)
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
