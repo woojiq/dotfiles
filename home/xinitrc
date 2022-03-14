@@ -50,6 +50,4 @@ fi
 
 xrdp -merge ~/.Xresources
 # Start I3
-nitrogen --restore &
-picom -b
 exec i3

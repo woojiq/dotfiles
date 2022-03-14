@@ -16,8 +16,12 @@
 # Font
 font pango:JetBrains Mono:style=Regular 12
 
-# Launch Polybar
+# Launch Nitrogen (wallpapers)
+exec --no-startup-id "nitrogen --restore"
+# Launch Polybar (taskbar)
 exec_always --no-startup-id "~/.config/polybar/launch.sh"
+# Launch Picom (opacity etc)
+exec --no-startup-id "picom -b"
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -51,9 +55,9 @@ bindsym Mod1+Return exec kitty
 bindsym Mod1+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym Mod1+d exec --no-startup-id dmenu_run
+# bindsym Mod1+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-# bindsym Mod1+d exec "rofi -modi drun,run -show drun"
+bindsym Mod1+d exec "rofi -modi drun -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
