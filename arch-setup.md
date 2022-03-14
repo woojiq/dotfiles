@@ -36,7 +36,8 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   
   * `sudo pacman -Syu` (download fresh package database from server and update all packages)
   * `git clone https://github.com/woojiq/dotfiles.git`  
-    `source ~/dotfiles/make-simlinks.sh` ~ (swap original dotfiles with mine)
+    `source ~/dotfiles/make-simlinks.sh`  
+    `chmod +x ~/dotfiles/home/xinitrc` ~ (swap original dotfiles with mine)
   * `localectl --no-convert set-x11-keymap us,ua pc104 , grp:win_space_toggle_toggle,ctrl:nocaps,terminate:ctrl_alt_bksp` ~ (add Ukr to Xorg and remap ctrl)
 </details>
 
