@@ -59,6 +59,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
   * **telegram-desktop** ~ (messenger)
+  * **rofi** ~ (application launcher)
 </details>
   
 <details>
