@@ -67,7 +67,9 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **google-chrome** ~ (browser)
   * **polybar** ~ (awesome status bar)
   * **nerd-fonts-jetbrains-mono** ~ (jetbrains mono with a lot of icons)
+  * **ly** -> (`sudo systemctl enable ly.service`) ~ (tui display manager)
   ##### Installation guide
+  0. cd ~/AUR
   1. git clone $aur_link
   2. cd $package_name
   3. makepkg -si
