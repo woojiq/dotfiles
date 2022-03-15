@@ -58,7 +58,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
-  * **telegram-desktop** ~ (messenger)
+  * **telegram-desktop** -> (apply [dracula](https://draculatheme.com/telegram) theme) ~ (messenger)
   * **rofi** ~ (application launcher)
   * **ranger** ~ (file manager)
 </details>
@@ -66,7 +66,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>AUR</b></summary>
   
-  * **google-chrome** ~ (browser)
+  * **google-chrome** -> (apply [dracula](https://chrome.google.com/webstore/detail/dracula-chrome-theme-dark/gfapcejdoghpoidkfodoiiffaaibpaem?hl=en-GB) theme) ~ (browser)
   * **polybar** ~ (awesome status bar)
   * **nerd-fonts-jetbrains-mono** ~ (jetbrains mono with a lot of icons)
   ##### Installation guide
