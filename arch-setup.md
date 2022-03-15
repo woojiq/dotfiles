@@ -60,6 +60,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **picom** ~ (transparency in i3)
   * **telegram-desktop** ~ (messenger)
   * **rofi** ~ (application launcher)
+  * **ranger** ~ (file manager)
 </details>
   
 <details>
