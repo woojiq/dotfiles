@@ -194,3 +194,5 @@ bindsym Mod1+r mode "resize"
 for_window [class="^.*"] border pixel 0
 gaps inner 5
 gaps outer 1
+
+for_window [ class="kitty" title="ranger" ] floating enable, resize set 800 600, move position center

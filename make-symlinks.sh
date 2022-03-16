@@ -8,18 +8,30 @@ echo "Let's Create Symlinks"
 
 mkdir ~/old_dotfiles
 
-cd ~/dotfiles/home/
+# from dotfiles/home to ~
+dot=~/dotfiles/home
+cd $dot
 for file in *; do
 	echo "Action with $file"
 	mv ~/.$file ~/old_dotfiles
-	ln -s ~/dotfiles/home/$file ~/.$file
+	ln -s $dot/$file ~/.$file
 done
 
-cd ~/dotfiles/config/
+# from dotfiles/config to ~/.config
+dot=~/dotfiles/config
+cd $dot
 for file in *; do
 	echo "Action with $file"
 	mv ~/.config/$file ~/old_dotfiles
-	ln -s ~/dotfiles/config/$file ~/.config/$file
+	ln -s $dot/$file ~/.config/$file
 done
 
 
+# from dotfiles/various to different location
+dot=~/dotfiles/various
+# ranger
+file=ranger.desktop
+path=~/.local/share/applications
+echo "Action with $file"
+mv $path/$file ~/old_dotfiles
+ln -s $dot/$file $path/$file
