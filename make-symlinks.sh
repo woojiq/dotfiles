@@ -26,12 +26,11 @@ for file in *; do
 	ln -s $dot/$file ~/.config/$file
 done
 
-
-# from dotfiles/various to different location
-dot=~/dotfiles/various
-# ranger
-file=ranger.desktop
-path=~/.local/share/applications
-echo "Action with $file"
-mv $path/$file ~/old_dotfiles
-ln -s $dot/$file $path/$file
+# from dotfiles/desktop to ~
+dot=~/dotfiles/desktop
+cd $dot
+for file in *; do
+	echo "Action with $file"
+	mv ~/.local/share/applications/$file ~/old_dotfiles
+	ln -s $dot/$file ~/.local/share/applications/$file
+done
