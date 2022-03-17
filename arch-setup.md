@@ -50,11 +50,11 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **tree** ~ (list contents of directories in a tree-like format)
   * **dotnet-sdk** ~ (framework to build c# applications)
   * **base-devel** -> (`All`) ~ (tools needed for building (compiling and linking))
+  * **neofetch** ~ (dispaly information about system)
   
   * **xorg-server** ~ (display server)
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
   * **i3-gaps** ~ (super-puper windows manager)
-  * **i3lock** ~ (simple screen locker)
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
@@ -135,8 +135,17 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>TODO</b></summary>
   
-  - [ ] Change DNS server to Google Public (or even smth better)
   - [ ] Add `man` to `$PATH`
+</details>
+  
+<details>
+  <summary><b>As OS</b></summary>
+  
+  - [ ] Change DNS server to Google Public (or even smth better)
+  - [ ] Power Manager (xfce4-power-manager)
+  - [ ] Screen Locker (i3lock)
+  - [ ] Audio
+  - [ ] Brightness
 </details>
 
 <hr />
