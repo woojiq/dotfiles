@@ -18,7 +18,11 @@ alias shutd='shutdown 0'
 alias chrome='google-chrome-stable 2>/dev/null & disown'
 # Run telegram
 alias teleg='telegram-desktop 2>/dev/null & disown'
-PS1='[\u@\h \W]\$ '
+
+# Bash line generator
+# https://bashrcgenerator.com/
+# PS1="\n\[$(tput sgr0)\]\[\033[38;5;135m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;213m\]\t\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;208m\]\w\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[\033[38;5;85m\]  \[$(tput sgr0)\]"
+PS1="\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;214m\] \w\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;85m\]  \[$(tput sgr0)\]"
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
