@@ -4,7 +4,7 @@
 " Enable file type plugin
 filetype plugin on
 " Turn syntax highlighting on.
-syntax on
+syntax enable
 " show line number
 set number
 " Turn hybrid line numbers on
@@ -42,11 +42,14 @@ set backspace=indent,eol,start
 
 
 
-" ==========  PLUGINS ==========
+" ========== PLUGINS ==========
+"
+colorscheme dracula
+set t_ut=
 
 
 
-" ==========  MAPPINGS ==========
+" ========== MAPPINGS ==========
 "
 " Time to print next character in mapping
 set timeoutlen=400
@@ -59,11 +62,11 @@ nnoremap <leader>hl :set hlsearch!<CR>
 
 
 
-" ==========  VIMSCRIPT ==========
+" ========== VIMSCRIPT ==========
 
 
 
-" ==========  STATUS LINE ==========
+" ========== STATUS LINE ==========
 "
 " Show partial commands on the status line
 set showcmd

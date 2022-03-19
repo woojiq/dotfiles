@@ -1,3 +1,6 @@
 [submodule "config/ranger/plugins/ranger_devicons"]
 	path = config/ranger/plugins/ranger_devicons
 	url = https://github.com/alexanderjeurissen/ranger_devicons.git
+[submodule "home/vim/pack/themes/start/dracula"]
+	path = home/vim/pack/themes/start/dracula
+	url = https://github.com/dracula/vim.git

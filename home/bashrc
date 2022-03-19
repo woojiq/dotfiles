@@ -21,7 +21,6 @@ alias teleg='telegram-desktop 2>/dev/null & disown'
 
 # Bash line generator
 # https://bashrcgenerator.com/
-# PS1="\n\[$(tput sgr0)\]\[\033[38;5;135m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;213m\]\t\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;208m\]\w\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[\033[38;5;85m\]  \[$(tput sgr0)\]"
 PS1="\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;214m\] \w\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;85m\]  \[$(tput sgr0)\]"
 
 # BEGIN_KITTY_SHELL_INTEGRATION
