@@ -45,7 +45,8 @@ set backspace=indent,eol,start
 " ========== PLUGINS ==========
 "
 colorscheme dracula
-set t_ut=
+" Disable default background
+highlight Normal ctermbg=NONE
 
 
 
