@@ -6,5 +6,6 @@ Icon=utilities-terminal
 Terminal=true
 Exec=i3-msg floating enable, resize set 800 600, move position center && ranger
 # Categories=ConsoleOnly;System;FileTools;FileManager
+Categories=main;
 MimeType=inode/directory;
 # Keywords=File;Manager;Browser;Explorer;Launcher;

@@ -9,6 +9,7 @@ Terminal=false
 StartupWMClass=TelegramDesktop
 Type=Application
 # Categories=Chat;Network;InstantMessaging;Qt;
+Categories=main;
 MimeType=x-scheme-handler/tg;
 Keywords=tg;
 Actions=Quit;
