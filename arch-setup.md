@@ -146,6 +146,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   - [ ] Screen Locker (i3lock)
   - [ ] Audio
   - [ ] Brightness
+  - [ ] Mouse Sensitive
 </details>
 
 <hr />
