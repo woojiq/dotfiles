@@ -39,6 +39,8 @@ set shiftwidth=4
 setlocal cindent 
 " Backspace erases indentations, end of lines and previously inserted text
 set backspace=indent,eol,start
+" Tab is code completion suggestions only if the prev char is not a newline or space
+inoremap <expr> <Tab> pumvisible() ? '<C-n>' : getline('.')[col('.')-2] =~# '[[:alnum:].-_#$]' ? '<C-n>' : '<Tab>'
 
 
 
@@ -48,10 +50,6 @@ set backspace=indent,eol,start
 colorscheme dracula
 " Disable default background
 highlight Normal ctermbg=NONE
-
-" ===== Omnisharp-vim =====
-" Tab is code completion suggestions only if the prev char is not a newline or space
-inoremap <expr> <Tab> pumvisible() ? '<C-n>' : getline('.')[col('.')-2] =~# '[[:alnum:].-_#$]' ? '<C-x><C-o>' : '<Tab>'
 
 
 
