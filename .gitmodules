@@ -4,3 +4,6 @@
 [submodule "home/vim/pack/themes/start/dracula"]
 	path = home/vim/pack/themes/start/dracula
 	url = https://github.com/dracula/vim.git
+[submodule "home/vim/pack/plugins/start/omnisharp-vim"]
+	path = home/vim/pack/plugins/start/omnisharp-vim
+	url = https://github.com/OmniSharp/omnisharp-vim.git

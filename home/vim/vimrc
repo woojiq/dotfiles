@@ -44,9 +44,14 @@ set backspace=indent,eol,start
 
 " ========== PLUGINS ==========
 "
+" ===== Dracula =====
 colorscheme dracula
 " Disable default background
 highlight Normal ctermbg=NONE
+
+" ===== Omnisharp-vim =====
+" Tab is code completion suggestions only if the prev char is not a newline or space
+inoremap <expr> <Tab> pumvisible() ? '<C-n>' : getline('.')[col('.')-2] =~# '[[:alnum:].-_#$]' ? '<C-x><C-o>' : '<Tab>'
 
 
 

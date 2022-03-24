@@ -11,7 +11,7 @@ alias tree='tree -C'
 # Run vim as a root with ~/.vim/vimrc config
 alias sudovim='sudo vim -u ~/.vim/vimrc'
 alias susy='systemctl suspend'
-alias shutd='shutdown 0'
+alias shut='shutdown 0'
 
 # Next is useless -> use Rofi
 # Run google chrome
