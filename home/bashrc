@@ -7,7 +7,7 @@
 
 alias ls='ls --color=auto'
 # Always color 'tree' output
-alias tree='tree -C'
+alias tree='tree -C -L 3'
 # Run vim as a root with ~/.vim/vimrc config
 alias sudovim='sudo vim -u ~/.vim/vimrc'
 alias susy='systemctl suspend'

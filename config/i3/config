@@ -17,7 +17,7 @@
 font pango:JetBrains Mono:style=Regular 12
 
 # Launch Nitrogen (wallpapers)
-exec --no-startup-id "nitrogen --restore"
+exec --no-startup-id "nitrogen --random --set-zoom-fill ~/GROOT/Media/Wallpaper/"
 # Launch Polybar (taskbar)
 exec_always --no-startup-id "~/.config/polybar/launch.sh"
 # Launch Picom (opacity etc)

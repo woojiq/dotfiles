@@ -63,6 +63,8 @@ nmap <space> <leader>
 nnoremap <leader>w :w<CR>
 " Switch highlighting (hl = highlight)
 nnoremap <leader>hl :set hlsearch!<CR>
+" Ask before quit with unsaved
+nnoremap ZQ :conf q<CR>
 
 
 
