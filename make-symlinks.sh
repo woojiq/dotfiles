@@ -14,7 +14,7 @@ cd $dot
 for file in *; do
 	echo "Action with $file"
 	mv ~/.$file ~/old_dotfiles
-	ln -s $dot/$file ~/.$file
+	ln -sf $dot/$file ~/.$file
 done
 
 # from dotfiles/config to ~/.config
@@ -23,7 +23,7 @@ cd $dot
 for file in *; do
 	echo "Action with $file"
 	mv ~/.config/$file ~/old_dotfiles
-	ln -s $dot/$file ~/.config/$file
+	ln -sf $dot/$file ~/.config/$file
 done
 
 # from dotfiles/desktop to ~
@@ -32,5 +32,8 @@ cd $dot
 for file in *; do
 	echo "Action with $file"
 	mv ~/.local/share/applications/$file ~/old_dotfiles
-	ln -s $dot/$file ~/.local/share/applications/$file
+	ln -sf $dot/$file ~/.local/share/applications/$file
 done
+
+echo "Creating symlink to 70-synaptics.conf [Untested]"
+ln -sf ~/dotfiles/various/70-synaptics.conf /etc/X11/xorg.conf.d/70-synaptics.conf

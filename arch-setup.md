@@ -50,6 +50,9 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **dotnet-sdk** ~ (framework to build c# applications)
   * **base-devel** -> (`All`) ~ (tools needed for building (compiling and linking))
   * **neofetch** ~ (dispaly information about system)
+  * **networkmanager** ~ (network connection (setup when installing arch))
+  * **alsa-utils** ~ (control audio with alsamixer)
+  * **xf86-input-synaptics** ~ (touchpad settings for notebook)
   
   * **xorg-server** ~ (display server)
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
