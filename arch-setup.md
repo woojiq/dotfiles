@@ -2,42 +2,20 @@ _To keep track of my changes in Arch Linux. To easily install it on a new device
 ## Arch setup:
 _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
-  <summary><b>archinstall [Useless]</b> (after booting command)</summary>
-  
-* `26` (us)
-* `63` (Ukraine)
-* `1` (/dev/sda)
-* `0` (Wipe all)
-* `1` (ext4)
-* `Enter` (no encryption)
-* `Y` (use swap on zram)
-* `incubator` (hostname)
-* (enter silly password x2 times)
-* `freak` (additional user username)
-* (one more password ~ what is the difference?)
-* `y` (should this user be a superuser)
-* `Enter` (no pre-programmed profile name)
-* `0` (pipewire) (TEST - `none`)
-* `Enter` (leave blank for default: linux)
-* `Enter` (no additional packages)
-* `0` (copy ISO network)
-* `Europe/Kiev` (timezone)
-* `Y` (automatic time synchronization)
-* `Enter` (to start installing)
-* `Y` (chroot into the newly created installation) (TEST - `N`)
-* `exit` (to exit chroot mode)
-* `reboot` (to reboot system and go to the Linux world)
-  
-  [`Pre-installed packages.`](https://github.com/woojiq/dotfiles/blob/master/various/prepack)
-</details>
-
-<details>
   <summary><b>one time commands</b></summary>
   
   * `git clone https://github.com/woojiq/dotfiles.git`  
     `source ~/dotfiles/make-simlinks.sh` ~ (swap original dotfiles with mine)
-  * `localectl --no-convert set-x11-keymap us,ua pc104 , grp:win_space_toggle,ctrl:nocaps,terminate:ctrl_alt_bksp` ~ (add Ukr to Xorg and remap ctrl)
+  * [Useless] `localectl --no-convert set-x11-keymap us,ua pc104 , grp:win_space_toggle,ctrl:nocaps,terminate:ctrl_alt_bksp` ~ (add Ukr to Xorg and remap ctrl)
 </details>
+
+<details>
+  <summary><b>garbage setup</b></summary>
+   
+  * Setup locale and time
+  * Connect to github with SSH
+</details>
+
 
 <details>
   <summary><b>pacman</b></summary>
@@ -121,6 +99,36 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
         `keycode 58 = Control`
       * **./ua-utf.map.gz**
         `keycode 58 = Control`
+</details>
+
+<details>
+  <summary><b>archinstall [Useless]</b> (after booting command)</summary>
+  
+* `26` (us)
+* `63` (Ukraine)
+* `1` (/dev/sda)
+* `0` (Wipe all)
+* `1` (ext4)
+* `Enter` (no encryption)
+* `Y` (use swap on zram)
+* `incubator` (hostname)
+* (enter silly password x2 times)
+* `freak` (additional user username)
+* (one more password ~ what is the difference?)
+* `y` (should this user be a superuser)
+* `Enter` (no pre-programmed profile name)
+* `0` (pipewire) (TEST - `none`)
+* `Enter` (leave blank for default: linux)
+* `Enter` (no additional packages)
+* `0` (copy ISO network)
+* `Europe/Kiev` (timezone)
+* `Y` (automatic time synchronization)
+* `Enter` (to start installing)
+* `Y` (chroot into the newly created installation) (TEST - `N`)
+* `exit` (to exit chroot mode)
+* `reboot` (to reboot system and go to the Linux world)
+  
+  [`Pre-installed packages.`](https://github.com/woojiq/dotfiles/blob/master/various/prepack)
 </details>
 
 <details>
