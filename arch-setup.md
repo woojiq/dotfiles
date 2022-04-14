@@ -6,23 +6,16 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   
   * `git clone https://github.com/woojiq/dotfiles.git`  
     `source ~/dotfiles/make-simlinks.sh` ~ (swap original dotfiles with mine)
+  * Setup locale and time
   * [Useless] `localectl --no-convert set-x11-keymap us,ua pc104 , grp:win_space_toggle,ctrl:nocaps,terminate:ctrl_alt_bksp` ~ (add Ukr to Xorg and remap ctrl)
 </details>
-
-<details>
-  <summary><b>garbage setup</b></summary>
-   
-  * Setup locale and time
-  * Connect to github with SSH
-</details>
-
 
 <details>
   <summary><b>pacman</b></summary>
     
   * **vim** ~ (lightweight text-editor to start edit some configs and write bullshit code)
   * **pacman-contrib** ~ (in order to regularly remove old versions of installed packages with `paccache`)  
-  * **git** ~ (lol git)
+  * **git** ~ (`git config --global credential.helper store`) ~ (lol git)
   * **polkit** ~ (use poweroff, reboot without typing 'sudo') [[1]](https://bbs.archlinux.org/viewtopic.php?id=169858&p=2)
   * **tree** ~ (list contents of directories in a tree-like format)
   * **dotnet-sdk** ~ (framework to build c# applications)
@@ -31,7 +24,6 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **networkmanager** ~ (network connection (setup when installing arch))
   * **alsa-utils** ~ (control audio with alsamixer)
   * **xf86-input-synaptics** ~ (touchpad settings for notebook)
-  * **openssh** ~ (connect to github with ssh)
   
   * **xorg-server** ~ (display server)
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
