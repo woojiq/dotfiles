@@ -53,6 +53,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **networkmanager** ~ (network connection (setup when installing arch))
   * **alsa-utils** ~ (control audio with alsamixer)
   * **xf86-input-synaptics** ~ (touchpad settings for notebook)
+  * **openssh** ~ (connect to github with ssh)
   
   * **xorg-server** ~ (display server)
   * **xorg-xinit** ~ (manually start `Xorg` with `startx`)
