@@ -93,7 +93,6 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
         `keycode 58 = Control`
 </details>
 
-
 <details>
   <summary><b>archinstall [Useless]</b> (after booting command)</summary>
   
