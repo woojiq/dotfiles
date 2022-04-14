@@ -2,7 +2,7 @@ _To keep track of my changes in Arch Linux. To easily install it on a new device
 ## Arch setup:
 _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
-  <summary><b>archinstall</b> (after booting command)</summary>
+  <summary><b>archinstall [Useless]</b> (after booting command)</summary>
   
 * `26` (us)
 * `63` (Ukraine)
@@ -34,10 +34,9 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>one time commands</b></summary>
   
-  * `sudo pacman -Syu` (download fresh package database from server and update all packages)
   * `git clone https://github.com/woojiq/dotfiles.git`  
     `source ~/dotfiles/make-simlinks.sh` ~ (swap original dotfiles with mine)
-  * `localectl --no-convert set-x11-keymap us,ua pc104 , grp:win_space_toggle_toggle,ctrl:nocaps,terminate:ctrl_alt_bksp` ~ (add Ukr to Xorg and remap ctrl)
+  * `localectl --no-convert set-x11-keymap us,ua pc104 , grp:win_space_toggle,ctrl:nocaps,terminate:ctrl_alt_bksp` ~ (add Ukr to Xorg and remap ctrl)
 </details>
 
 <details>
@@ -92,7 +91,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
       GRUB_TIMEOUT=3
       ```
   
-  * **/etc/sudoers** (`sudo visudo`).  
+  * [Useless] **/etc/sudoers** (`sudo visudo`).  
     * `Add:` [[1]](https://wiki.archlinux.org/title/sudo#Reduce_the_number_of_times_you_have_to_type_a_password)
       ```
       ## Ask for password every time 'sudo' is entered
@@ -105,14 +104,14 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
       EDITOR=vim
       ```
   
-  * **/etc/vconsole.conf**.  
+  * [Useless] **/etc/vconsole.conf**.  
     * `Add:` [[1]](https://man.archlinux.org/man/vconsole.conf.5) (*reboot* to apply)
       ```
       FONT=cyr-sun16
       KEYMAP_TOGGLE=ua-utf
       ```
   
-  * **/usr/share/kbd/keymaps/i386/qwerty**.  
+  * [Useless] **/usr/share/kbd/keymaps/i386/qwerty**.  
     * `Modify:` [[1]](https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration#Other_examples) (*reboot* to apply)
       * **./us.map.gz**
         `keycode 58 = Control`
@@ -128,23 +127,6 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
     * `sudo systemctl enable vboxservice`
     * add `whoami` to `vboxsf` group
     * add shared folder to `virtual box`
-</details>
-
-<details>
-  <summary><b>TODO</b></summary>
-  
-  - [ ] Add `man` to `$PATH`
-</details>
-  
-<details>
-  <summary><b>As OS</b></summary>
-  
-  - [ ] Change DNS server to Google Public (or even smth better)
-  - [ ] Power Manager (xfce4-power-manager)
-  - [ ] Screen Locker (i3lock)
-  - [ ] Audio
-  - [ ] Brightness
-  - [ ] Mouse Sensitive
 </details>
 
 <hr />
