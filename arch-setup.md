@@ -58,7 +58,6 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
   * **kitty** ~ (terminal emulator)
   * **nitrogen** -> (`nitrogen <folder>` *to set wallpaper*) ~ (wallpapers setter:))
   * **picom** ~ (transparency in i3)
-  * **telegram-desktop** -> (apply [dracula](https://draculatheme.com/telegram) theme) ~ (messenger)
   * **rofi** ~ (application launcher)
   * **ranger** ~ (file manager)
 </details>
@@ -66,7 +65,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
 <details>
   <summary><b>AUR</b></summary>
   
-  * **google-chrome** -> (apply [dracula](https://chrome.google.com/webstore/detail/dracula-chrome-theme-dark/gfapcejdoghpoidkfodoiiffaaibpaem?hl=en-GB) theme) ~ (browser)
+  * **google-chrome** ~ (browser)
   * **polybar** ~ (awesome status bar)
   * **nerd-fonts-jetbrains-mono** ~ (jetbrains mono with a lot of icons)
   ##### Installation guide
@@ -90,8 +89,7 @@ _Arch version - `archlinux-2022.02.01-x86_64.iso`_
       *Apply changes*: `sudo grub-mkconfig -o /boot/grub/grub.cfg`  
       [[1]](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html) [[2]](https://wiki.archlinux.org/title/GRUB#Generated_grub.cfg)
       ```
-      GRUB_TIMEOUT=1
-      GRUB_TIMEOUT_STYLE=hidden
+      GRUB_TIMEOUT=3
       ```
   
   * **/etc/sudoers** (`sudo visudo`).  
